@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_black"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/search"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/info" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/coco_goose"
+                    android:gravity="left"
+                    android:padding="2dp"
+                    android:text="\tBrief Explanation"
+                    android:textColor="@color/white_93"
+                    android:textSize="29sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_margin="0dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hhh" />
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/impact" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tImpacts of Using\n\t\tSmartphone"
+                    android:textColor="@color/white_93"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:paddingLeft="49dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="15dp"
+                    android:text="1.\t\tBlue light radiation on\n\t\t\tsmartphone will effect on\n\t\t\teyesight such as cataracts or\n\t\t\tlens opacities and degeneration\n\t\t\tor premature retinal aging.\n2.\t\tLight and heat from smartphone\n\t\t\twill make the eyes easily dry.\n3.\t\tContinuous focus distance when\n\t\t\tusing smartphone will make the\n\t\t\teyes easily tired because the eye\n\t\t\tmuscles are tired to focus."
+                    android:textColor="@color/white_70"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/tips" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tTips to Maintain Eye\n\t\tHealth for Smartphone\n\t\tUser"
+                    android:textColor="@color/white_93"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:paddingLeft="49dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="15dp"
+                    android:text="1.\t\tDo the 20-20-20 principle, which\n\t\t\tmeans every 20 minutes using\n\t\t\tsmartphone, rest your eyes for\n\t\t\t20 seconds by looking at a\n\t\t\tdistance of 20 feet ahead or\n\t\t\tabout 6 meters.\n2.\t\tOperate the smartphone in an\n\t\t\tergonomic position, with a\n\t\t\treading distance of 30 until 40\n\t\t\tcm in front of the eyes.\n3.\t\tOperate the smartphone with\n\t\t\tsufficient lighting.\n4.\t\tUse glasses regularly if you\n\t\t\thave eyeglass sizes such as\n\t\t\tminus, plus, and cylinder.\n5.\t\tCheck eye health to the eye\n\t\t\tdoctor at least once every 6-12\n\t\t\tmonths.
+"
+                    android:textColor="@color/white_70"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ideal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tIdeal Distance"
+                    android:textColor="@color/white_93"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:paddingLeft="49dp">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="15dp"
+                    android:text="\t\t\t\tThe distance between eyes and smartphone screen has a significant effect on eyesight. If the eyes are accustomed to activities at close range, when moving far away, the eye’s ability is not optimal. This can trigger nearsightedness. The safe viewing distance for using smartphone varies depending on the diopter power of each eyepiece. Safe viewing distance parameter used in this application is ≥ 30 cm which is the average safe viewing distance of humans."
+                    android:textColor="@color/white_70"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

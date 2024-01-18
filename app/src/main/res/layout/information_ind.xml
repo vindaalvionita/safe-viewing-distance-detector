@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@color/background">
+
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:paddingBottom="40dp">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/color_black"
+          android:gravity="center_vertical"
+          android:orientation="horizontal"
+          android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/info" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/coco_goose"
+            android:gravity="left"
+            android:padding="2dp"
+            android:text="\tBrief Explanation"
+            android:textColor="@color/white_93"
+            android:textSize="29sp"
+            android:textStyle="normal" />
+      </LinearLayout>
+
+      <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="0dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="6dp">
+
+        <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scaleType="fitXY"
+          android:src="@drawable/hhh" />
+      </androidx.cardview.widget.CardView>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:gravity="center_vertical"
+          android:orientation="horizontal"
+          android:padding="10dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/impact" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t\tDampak dari Penggunaan\n\t\tSmartphone"
+            android:textColor="@color/white_93"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+          android:paddingLeft="49dp"
+        android:orientation="vertical">
+
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="6dp"
+            android:layout_marginRight="15dp"
+          android:text="1.\t\tRadiasi sinar biru pada\n\t\t\tsmartphone akan membuat efek\n\t\t\tburuk pada mata seperti timbulnya\n\t\t\tkatarak atau kekeruhan lensa\n\t\t\tserta degenerasi atau penuaan\n\t\t\tretina lebih dini.\n2.\t\tCahaya dan panas dari\n\t\t\tsmartphone akan membuat mata\n\t\t\tlebih mudah kering.\n\3.\t\tJarak fokus yang terus menerus\n\t\t\tsaat berhadapan dengan\n\t\t\tsmartphone akan membuat mata\n\t\t\tmenjadi mudah lelah karena otot\n\t\t\tmata yang kelelahan untuk\n\t\t\tmemfokuskan."
+          android:textColor="@color/white_70"
+          android:textStyle="bold" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:gravity="center_vertical"
+          android:orientation="horizontal"
+          android:padding="10dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/tips" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t\tTips untuk Menjaga\n\t\tKesehatan Mata"
+            android:textColor="@color/white_93"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+          android:paddingLeft="49dp">
+
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="6dp"
+            android:layout_marginRight="15dp"
+          android:text="1.\t\tMenerapkan prinsip 20-20-20,\n\t\t\tyang artinya setiap 20 menit\n\t\t\tmenggunakan smartphone,\n\t\t\tistirahatkan mata selama 20 detik\n\t\t\tdengan melihat jarak 20 kaki ke\n\t\t\tdepan atau sekitar 6 meter.\n2.\t\tMengoperasikan smartphone\n\t\t\tdengan posisi ergonomis, dengan\n\t\t\tjarak baca 30-40 cm di depan mata.\n3.\t\tMengoperasikan smartphone\n\t\t\tdengan pencahayaan yang cukup.\n4.\t\tMenggunakan kacamata secara\n\t\t\trutin jika memang memiliki ukuran\n\t\t\tkacamata seperti minus, plus, dan\n\t\t\tsilinder.\n5.\t\tPeriksa kesehatan mata ke dokter\n\t\t\tmata minimal 1x tiap 6-12 bulan."
+          android:textColor="@color/white_70"
+          android:textStyle="bold" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:gravity="center_vertical"
+          android:orientation="horizontal"
+          android:padding="10dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ideal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t\tJarak Ideal"
+            android:textColor="@color/white_93"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+          android:paddingLeft="49dp">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="6dp"
+            android:layout_marginRight="15dp"
+          android:text="\t\t\t\tJarak antara mata dengan smartphone memiliki pengaruh yang signifikan terhadap kesehatan mata. Jika mata terbiasa beraktivitas dalam jarak dekat, saat beraktivitas jauh kemampuan mata menjadi tidak maksimal. Hal ini dapat memicu terjadinya rabun jauh. Jarak pandang aman menggunakan smartphone berbeda-beda tergantung pada kekuatan dioptri masing-masing lensa mata. Aplikasi ini menggunakan parameter jarak pandang aman bernilai ≥ 30 cm yang merupakan rata-rata jarak pandang aman manusia."
+          android:textColor="@color/white_70"
+          android:textStyle="bold" />
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+</ScrollView>

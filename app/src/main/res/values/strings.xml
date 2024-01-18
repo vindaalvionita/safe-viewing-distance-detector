@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Eyedios</string>
+    <string name="permission">Please grant permission and restart app</string>
+    <string name="app_description">Eyedios is an Android application which detects safe viewing distance between eyes and smartphone screen. This application is developed in order to complete final project which is graduation requirement in Electronic Engineering Polytechnic Institute of Surabaya.</string>
+    <string name="about">I, Vinda Alvionita, am a college student at Electronic Engineering Polytechnic Institute of Surabaya majoring in D3 Telecommunication Engineering. I was born on 23 May 2001.</string>
+    <string name="copyright" translatable="false">Copyright © 2021</string>
+</resources>
